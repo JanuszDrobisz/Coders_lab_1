@@ -1,8 +1,13 @@
-package coderslab.pacaDomowa;
+package coderslab.pracaDomowa;
 
 public class BankAccount {
     private int number;
     private double cash;
+
+    public BankAccount(int number) {
+        this.number = number;
+        this.cash = 0;
+    }
 
     public int getNumber() {
         return number;
@@ -10,12 +15,6 @@ public class BankAccount {
 
     public double getCash() {
         return cash;
-    }
-
-
-    public BankAccount(int number) {
-        this.number = number;
-        this.cash = 0;
     }
 
     public void depositCash(double amount) {
@@ -44,7 +43,7 @@ public class BankAccount {
         }
     }
 
-    public String printInfo (){
+    public String printInfo() {
         return "Na koncie o nr: " + this.number + " znajdują się następujące środki: " + this.cash + " PLN.";
 
     }

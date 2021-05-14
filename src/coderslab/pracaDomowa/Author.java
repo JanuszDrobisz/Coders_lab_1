@@ -1,4 +1,4 @@
-package coderslab.pacaDomowa;
+package coderslab.pracaDomowa;
 
 public class Author {
     private int id;

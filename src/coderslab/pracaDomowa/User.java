@@ -1,4 +1,4 @@
-package coderslab.pacaDomowa;
+package coderslab.pracaDomowa;
 
 import java.util.Arrays;
 
